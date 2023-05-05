@@ -24,6 +24,7 @@ public class User {
 
     private String mobNo;
 
+
     @OneToOne(mappedBy = "user",cascade = CascadeType.ALL)
     private Subscription subscription;
 
